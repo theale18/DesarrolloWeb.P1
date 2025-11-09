@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+    color: #ffd700;
+    font-family: "Berlin Sans FB";
+    font-size: 30px;
+    text-decoration: none;
+
+    text-align: center;
+    display: table;
+    justify-content: center;
+    vertical-align: middle;
+    width: 1000px;
+    margin: 2rem auto;
+}
+legend{
+    font-style: italic;
+    text-align: center;
+}
+#imgv{
+    height: 250px;
+    width: 500px;
+}
+#port{
+    height: 600px;
+    width: 1000px;
+}
+li{
+    font-family: "Calibri";
+    font-size: 30px;
+    font-style: italic;
+    text-decoration: none;
+    color: #ffd700;
+}
+#rojo{
+    color: red;
+    font-style: italic;
+}
+#arial{
+    font-family: "Arial";
+}
+#gothic{
+    font-family: "BankGothic Md BT";
+    font-weight: 600;
+}

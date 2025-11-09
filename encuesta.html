@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="P3.css">
+    <title>P3:Encuesta</title>
+</head>
+<body>
+    <head> 
+        <center>
+            <img src="https://www.eap.edu/wp-content/uploads/2019/05/logo-encuesta-1024x768.gif" height="200" width="250" alt="Encuesta"> 
+        </center>
+    </head>
+    <p>
+        <a href="index.html"><img src="https://thumbs.dreamstime.com/b/icono-de-flecha-atr%C3%A1s-ilustraci%C3%B3n-bot%C3%B3n-azul-redondo-elegante-hacia-aislado-en-la-161327075.jpg" height="50" width="50" alt="Index"> </a>
+    </p>
+    <form>
+        <ol>
+            <li> <label for="nombre"> Ingrese Nombre/es: </label> </li>
+            <input id="Nombre" type="text" name="Nombre"> <p>
+
+            <li> <label for="apellido"> Ingrese Apellido/os: </label> </li>
+            <input id="Apellido" type="text" name="Apellido"> <p>
+
+            <li> <label for="edad"> Ingrese Edad: </label> </li>
+            <input id="" type="number" name="Edad"> <p>
+
+            <li> <label for="email"> Ingrese Correo Electronico: </label> </li>
+            <input id="" type="number" name="Email"> <p>
+
+            <li> <label for="poc"> Ingrese Profesion / Carrera: </label> </li>
+            <input id="PoC" type="text" name="PoC"> <p>
+
+            <li> <label for="lista"> Pelicula que recomendarias a tu Amigo/a </label> </li>
+            <input list="rec" id="lista" name="lista">
+            <datalist id="rec">
+                <option value="Star Wars">
+                <option value="Depredador">
+                <option value="El Conjuro">
+                <option value="La Noche del Demonio">
+                <option value="La Isla Siniestra">
+                <option value="Un Lugar en Silencio">
+                <option value="El Sobreviviente">
+                <option value="El Francotirador">
+                <option value="Paul">
+                <option value="La Pistola Desnuda">
+            </datalist> <p>            
+            <li> Elegir Pelicula Favorita </li>
+           
+            <input id="rb1" type="radio" name="fav">
+            <label for="rb1" id="letra"> Star Wars </label>
+            <input id="rb3" type="radio" name="fav">
+            <label for="rb3" id="letra"> El Conjuro </label>
+            <input id="rb3" type="radio" name="fav">
+            <label for="rb3" id="letra"> La Isla Siniestra </label>
+            <input id="rb3" type="radio" name="fav">
+            <label for="rb3" id="letra"> El Sobreviviente </label>
+            <input id="rb3" type="radio" name="fav">
+            <label for="rb3" id="letra"> Paul </label> <br>
+
+            <input id="rb2" type="radio" name="fav">
+            <label for="rb2" id="letra"> Depredador </label>        
+            <input id="rb3" type="radio" name="fav">
+            <label for="rb3" id="letra"> La Noche del Demonio </label>           
+            <input id="rb3" type="radio" name="fav">
+            <label for="rb3" id="letra"> Un Lugar en Silencio </label>            
+            <input id="rb3" type="radio" name="fav">
+            <label for="rb3" id="letra"> El Francotirador </label>           
+            <input id="rb3" type="radio" name="fav">
+            <label for="rb3" id="letra"> La Pistola Desnuda </label> 
+           </letra>
+            <p>
+            <li>Elegir Generos Preferidos</li>
+            <table border="2">
+                <thead>
+                    <tr id="letra">
+                        <th>Accion</th>
+                        <th>Aventuras</th>
+                        <th>Ciencia Ficcion</th>
+                        <th>Comedia</th>
+                        <th>No-Ficcion</th>
+                    </tr>
+                </thead>
+                <tr>
+                    <th> <input id="cb1" type="checkbox" name="elegir"> </th>
+                    <th> <input id="cb2" type="checkbox" name="elegir"> </th>
+                    <th> <input id="cb3" type="checkbox" name="elegir"> </th>
+                    <th> <input id="cb4" type="checkbox" name="elegir"> </th>
+                    <th> <input id="cb5" type="checkbox" name="elegir"> </th>
+                </tr>
+                <thead>
+                    <tr id="letra">
+                        <th>Drama</th>
+                        <th>Fantasia</th>
+                        <th>Musical</th>
+                        <th>Suspenso</th>
+                        <th>Terror</th>
+                    </tr>
+                </thead>
+                <tr>
+                    <th> <input id="cb6" type="checkbox" name="elegir"> </th>
+                    <th> <input id="cb7" type="checkbox" name="elegir"> </th>
+                    <th> <input id="cb8" type="checkbox" name="elegir"> </th>
+                    <th> <input id="cb9" type="checkbox" name="elegir"> </th>
+                    <th> <input id="cb10" type="checkbox" name="elegir"> </th>
+                </tr>
+            </table> <p>
+            <li>Cuentanos por que recomendarias la pelicula que elegiste anteriormente</li>
+            <textarea name="texto" rows="10" cols="100"></textarea>
+        </ol>
+    </form>
+    <p>
+        <input type="submit" value="Enviar Encuesta">
+    </p>
+    <p>
+        <footer>
+            <fieldset>
+                <legend>Informacion del Autor</legend>
+                <b>Nombre/es: </b>Alejandro Javier<br>
+                <b>Apellido/os: </b>Colque<br>
+                <b>Email: </b> ale-colque@hotmail.com<br>
+            </fieldset>   
+        </footer>
+    </p>
+</body>
+</html>
